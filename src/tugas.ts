@@ -93,21 +93,6 @@ protected
 
 */
 
-
-// 3. Buatlah fungsi bernama penumlahanBilangan dengan ketentuan berikut:
-// * - Menerima dua buah argument a yang merupakan array dari sebeluh number dan b
-// hanya menerima kata-kata ganjil dan genap
-// * - return dari function adalah hasil dari penjumlahan nilai2 tergantung b nya
-// adalah ganjil / genap
-// *
-// * contoh:
-// * perjumlahBilangan([1,2,3], "ganjil") //4
-// * perjumlahBilangan([1,2,3,4,5,6,7], "genap") //12
-// * perjumlahBilangan([1,2,3,4,5], "ganjil") // 9
-// * perjumlahBilangan([1,2,3,4,5,6,7], "ganj") //error
-// * perjumlahBilangan([1,2,3,4,5,6,7], "positif") //error
-
-
 // Soal Nomor 1
 function Minimal(a: number, b: number) {
   return a > b ? b : a;
