@@ -90,7 +90,6 @@ protected
 *
 * const speedTes = new EagleRun("Kuku", 220)
 * speedTes.runEagle() // Kuku Berlari dengan kecapatan 220 km";
-
 */
 
 // Soal Nomor 1
