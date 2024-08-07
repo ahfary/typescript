@@ -160,7 +160,7 @@ class Eagle extends Animal {
     console.log(`${this.name} yang berumur ${this.age} sedang terbang!`);
   }
 
-  run() {
+  protected run() {
     this.isMamali? console.log(`${this.name} tidak bisa terbang karna nilai is mamalianya true`) : console.log(`${this.name} Berlari dengan kecapatan ${this.speed} km`)
   }
 }
@@ -172,6 +172,9 @@ class EagleRun extends Eagle {
         super(name, age, isMamali, speed)
     }
     // Method run sama flynya udah ada di class Eagle
+    EagleRun() {
+        return console.log(`${this.name} Berlari dengan kecapatan ${this.speed} km`)
+    }
 }
 
 // Soal Nomor 8
@@ -186,9 +189,9 @@ myRabbit.eat();
 
 const myEagle = new Eagle("Elo", 4, true, 220)
 myEagle.fly()
-myEagle.run()
+// myEagle.run()
 
 // Soal Nomor 10
 
 const speedTes = new EagleRun("Kuku", 12, false, 220)
-speedTes.run()
+// speedTes.run()
